@@ -6,7 +6,7 @@
   "stack": "heroku-24",
   "env": {
     "SESSION_ID": {
-      "description": "Put the session-id here.",
+      "description": "Silva~H4sIAAAAAAAAA5VU25KiSBD9F17tGBBEpCM6YgEvgO0VFXFjH0oooLhTVaI4Mf++hd09PQ+7s72+WJWmp06ePJnfuaJEBM5hyz1/5yqMGkBhd6Rtxb45/RKGEHNPXAAoYHc4ycwNXDozZyXlA3tuJWB97ZWnV10dRE5vAUCwPF3ntTwdvXA/nrjqcs6Q/xtAZ7ioTwddaLPmutFXnpSHXn3q74NmBM9BbyRdrvuUP0gw3jPADhEgjIpoUsUwhxhkjPqahb5GHxmpHMh2HvDtfWdSsgQqyCUVeavD+NxYNhHG1BzMBJh6X6N/jZqjzGdq6RnBVLidBHOoJnjFO71d1Pe1xNlqMW9sCbyP3ugTFBUwsAJYUETbL+vu6bxqruqMNwf2a12vLjcthR7ejlXrZuteOXNGlxWe78UZ+Rrx6UYctXCSjNs4XVcSTyfK8mDX+Mgb8cxp68qzlWt219128CvxNf7wSvp/dN/opjS08vho79das4GC2AhGUyLBOx9ba3crnNua3KqrOvuibUpDVC3n4Lmx7M6Skij2fV6sxHySmkyJMuqvhKBWzj06LT/pA3rBv2NZt+UuNYWzUdCjC8rQW7uLVd+yRHuW1tQQr4U9lrfe6XK+h3N7MSH3WBIOuM2yu5cspiZdO8gZDY+Qqlt7FPpxXIaa9vKoiMllBdxznx0xjBChGFBUFo+YJD9xIGgc6GNIH/JymbqbavJov5gzFjt5mIXq0hMyWXJ4q+ceyT5rcKpu98YwfWEFVLj0ISEwMBlyidsFu4AIEu75z7+euALe6Fvjuuek/hMXIkzovrhUWQmCj65+/Ah8v7wU1GkL3+gOTKJn4TMMKWXzRzodLwXAfowaaMSAskgIMgJ/VggxZIgUX+DPqTXKoBN+slFt5WRsGfP80RDEEjlRHioDUVUlVeg/D/4g364dKqiqbwWkLDV7ZCmiqoiiJA77g740YnldmNUIOiRuAfxO7XeuHXQAKUAZI8cZc0Nme2mT1GF233ie5mjanPWH+6ztwyRvTdhONvB8Gd+KGalu17wcNlhzdyTLqTttiaSdvTxdK71ygP4RhCGYcmq3EW/3xUISnMXJyEPeNVH/tAbnDEP97iZeNVWEgb09+sl5K8jIHbSvqLwNk/EwNffkhJoEqZI7Cd0TqpVp0ejXl+61ADbIh78+ZoyhGfj3PpbKQzoFCx0hmxAj9tOKr2gCgHnU/IgWR+8gJwunUki8HJX8Yv8K0kAYZt66nzkgmKUbnWydZOQqLdA3b/Z9jE/2vrbQw1hd17priOBjC7x34L+6+Ma785rAcD8h3tfKv4ymvt9OzFyJRqcbnvu+Xa/w8DpNFfuED7GPl9eZaFfjHl+vrIjNOzN9lQEaljhnfwZFgMuHS3B56cxrFWH5m8cM3bK0KFp2hWeAUO1zIHYoh4SCvGJjqyiSIkviQH7LWuOyMgGJGYAUrfd22rm71arKoWw5vs8Xp3Uf/XjnfvwNg45HCHsHAAA=",
       "required": true,
       "value": ""
     },
@@ -18,7 +18,7 @@
     "MODE": {
       "description": "Bot mode: public, private, group, inbox.",
       "required": false,
-      "value": "public"
+      "value": "private"
     },
     "BOT_NAME": {
       "description": "Bot display name.",
@@ -26,7 +26,7 @@
       "value": "✦ Silva ✦ MD ✦"
     },
     "OWNER_NUMBER": {
-      "description": "Owner WhatsApp number (digits only, with country code e.g. 254712345678).",
+      "description": "Owner WhatsApp number (digits only, with country code e.g. 256742993901).",
       "required": true,
       "value": ""
     },
@@ -78,12 +78,12 @@
     "AUTO_STATUS_SEEN": {
       "description": "Auto-view all status updates.",
       "required": false,
-      "value": "true"
+      "value": "false"
     },
     "AUTO_STATUS_REACT": {
       "description": "Auto-react to status updates.",
       "required": false,
-      "value": "true"
+      "value": "false"
     },
     "AUTO_STATUS_REPLY": {
       "description": "Auto-reply to status updates.",
@@ -113,7 +113,7 @@
     "AUTO_TYPING": {
       "description": "Show typing indicator while processing commands.",
       "required": false,
-      "value": "true"
+      "value": "false"
     },
     "AUTO_RECORDING": {
       "description": "Show recording indicator for media commands.",
